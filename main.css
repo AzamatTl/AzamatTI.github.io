@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 25px 250px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {}
+
+.textinnfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.text {
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.basket {}
+
+.banner {
+    width: 95%;
+    height: 550px;
+    background-image: url(/assets/images/IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 150px;
+    margin: 0 auto;
+}
+
+.title-banner {
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.text-banner {
+    font-family: Karla;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.textp {
+    font-family: Karla;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.a-banner {
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    background: #1D1F2E;
+    background-color: white;
+    margin-bottom: 48px;
+    text-decoration: none;
+    width: 231px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.coffefather {
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.titletwo {
+    font-family: Karla;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 16px;
+    color: #1D1F2E;
+}
+
+.text-cafeone {
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 21px;
+    color: #1D1F2E;
+}
+
+.text-cafetwo {
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #A25F4B;
+}
+
+.text-cafethree {
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #1D1F2E;
+    margin-bottom: 100px;
+}
+
+.coffebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-bottom: 100px;
+}
+
+.coffe-one {
+    width: 48%;
+}
+
+.father-img {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.title-box {
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.price-box {
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #A25F4B;
+}
+
+.coffe-two {
+    width: 48%;
+}
+
+.pr {
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.coffeboxtwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 250px;
+    padding-left: 250px;
+    margin-bottom: 140px;
+}
+
+.coffe-one-in {
+    width: 31%;
+    height: 400px;
+}
+
+.father-img-two {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.title-box-two {
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.price-box-two {
+    font-family: Karla;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+.coffe-two-in {
+    width: 31%;
+    height: 400px;
+}
+
+.coffe-three-in {
+    width: 31%;
+    height: 400px;
+}
+
+.fatheroffer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-bottom: 130px;
+}
+
+.abox {
+    width: 50%;
+}
+
+.offertitle {
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+.offertext {
+    font-family: Karla;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.offer {
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.buttonoff {
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;
+    width: 173px;
+    height: 36px;
+    background-color: #1D1F2E;
+    ;
+}
+
+.imgoff {
+    width: 100%;
+    margin-right: 80px;
+}
+
+.banner-down {
+    width: 100%;
+}
+
+.img-bannerdown {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.h1-bannertitle {
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.behind {
+    padding-right: 250px;
+    padding-left: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.coffe-b1 {
+    width: 31%;
+}
+
+.bh-img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.bh-h1 {
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+.bh-p {
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.coffe-b2 {
+    width: 31%;
+}
+
+.coffe-b3 {
+    width: 31%;
+}

@@ -1,0 +1,2 @@
+alert('hello')
+consoleWriteline('hello')
