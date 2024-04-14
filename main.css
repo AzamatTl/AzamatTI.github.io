@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
+ @media only screen and (max-width: 767px) {
+   
+
 .header {
     padding: 25px 250px;
+      background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+
 }
 
 .navbar {
